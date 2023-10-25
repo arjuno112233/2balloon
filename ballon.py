@@ -48,7 +48,7 @@ while not vehicle.armed:
     time.sleep(1)
 
 # Listen to altitude and trigger servo at 300 meters
-target_altitude = 300  # meters
+target_altitude = 1  # meters
 servo_trigger_duration = 40  # seconds
 
 while True:
