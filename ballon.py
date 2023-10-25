@@ -35,7 +35,7 @@ print(f"Waiting for {delay_before_launch} seconds before starting the mission...
 time.sleep(delay_before_launch)
 
 # Perform pre-arm checks
-while not vehicle.is_armable:
+while vehicle.is_armable:
     print("Waiting for vehicle to initialize...")
     time.sleep(1)
 
